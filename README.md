@@ -10,3 +10,9 @@ For real-time applications, we can consider using the HYDERABAD METRO map as a p
 Time Complexity: 
 The time complexity of this implementation is O(V²) where V is the number of stations. This is because for each station, the algorithm finds the unvisited station with the smallest distance by scanning all stations.
 
+Observations from the Graph:
+The graph consists of 56 nodes connected mostly in sequence.
+Each node is connected to its neighbor(s) with a weight of 1.
+There are some branching points:
+    * Node 17 connects downward to nodes 16, 15, 14… etc.
+    * Node 35 connects downward to nodes 34, 33… etc.
